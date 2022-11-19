@@ -1,0 +1,18 @@
+characters={
+	KRI_sergei_oksonev ={
+		name = "Sergei Oksenov"
+		portraits ={
+			civilian ={
+				large = GFX_portrait_KRI_oksonev
+			}
+		}
+		country_leader={
+			ideology= conservatism
+			expire = "2027.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+ 

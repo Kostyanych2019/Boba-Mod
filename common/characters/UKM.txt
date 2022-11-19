@@ -1,0 +1,18 @@
+characters={
+	UKM_volodimir_zelenskiy ={
+		name = "Volodimir Zelenskiy"
+		portraits ={
+			civilian ={
+				large = GFX_portrait_UKR_volodimir_zelenskiy
+			}
+		}
+		country_leader={
+			ideology= liberalism
+			expire = "2027.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+ 

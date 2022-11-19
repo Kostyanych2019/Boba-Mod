@@ -1,0 +1,16 @@
+spriteTypes = {
+        spriteType = {
+		name = "GFX_portrait_NRU_alexey_navalniy"
+		texturefile = "gfx/leaders/NRU/Portrait_New_Russia_Alexey_Navalniy.dds"
+	}
+
+spriteType = {
+		name = "GFX_portrait_UKR_volodimir_zelenskiy"
+		texturefile = "gfx/leaders/UKM/Portrait_Ukraine_Volodimir_Zelensky.dds"
+	}
+
+spriteType = {
+		name = "GFX_portrait_KRI_oksonev"
+		texturefile = "gfx/leaders/KRI/Portrait_Crimean_County_Oksenov.dds"
+	}
+}
