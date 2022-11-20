@@ -3,7 +3,7 @@ characters={
 		name = "Denis Pushilin"
 		portraits ={
 			civilian ={
-				large = GFX_portrait_DNR_alexey_navalniy
+				large = GFX_portrait_DNR_pushilin
 			}
 		}
 		country_leader={

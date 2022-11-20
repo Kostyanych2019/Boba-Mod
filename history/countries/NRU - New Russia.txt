@@ -83,7 +83,7 @@ set_popularities = {
     democratic = 60
 	fascism = 15
 	communism = 10
-	neutrality = 75
+	neutrality = 34
 }
 
 1939.1.1 = {
@@ -97,6 +97,6 @@ set_popularities = {
         democratic = 60
 		fascism = 20
 		communism = 10
-		neutrality = 70
+		neutrality = 30
 	}
 }

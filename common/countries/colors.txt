@@ -876,6 +876,18 @@ TTS = {
 	color_ui = rgb { 179 179 0 }}
 }	 
 KRI = {
-	color = rgb { 173  216  215 }
-	color_ui = rgb { 0 179 179 }
+	color = rgb { 173  216  215 
+	color_ui = rgb { 173  216  215 }
+}
+UKM = {
+	color = rgb { 200  216  215 }
+	color_ui = rgb { 200  216  215 }
+}
+BIL = {
+	color = rgb { 255  250  240 }
+	color_ui = rgb { 255  250  240 }
+}
+LNR = {
+	color = rgb { 86  66  109 }
+	color_ui = rgb { 86  66  109 }
 }
