@@ -1,6 +1,6 @@
 capital = 227
 
-oob = "KOM_1936"
+oob = "BBK_1936"
 
 set_research_slots = 2
 
