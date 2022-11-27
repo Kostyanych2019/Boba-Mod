@@ -84,6 +84,8 @@ if = {
 	}
 }
 
+recruit_character = DNR_denis_pushilin
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2022.1.1"
