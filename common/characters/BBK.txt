@@ -1,0 +1,18 @@
+characters={
+	BBK_zuganov ={
+		name = "Gennady Zuganov"
+		portraits ={
+			civilian ={
+				large = GFX_portrait_BBK_zuganov
+			}
+		}
+		country_leader={
+			ideology= stalinism
+			expire = "2029.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+ 

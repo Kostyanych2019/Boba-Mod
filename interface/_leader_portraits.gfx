@@ -17,5 +17,11 @@ spriteType = {
 	spriteType = {
 		name = "GFX_portrait_DNR_pushilin"
 		texturefile = "gfx/leaders/DNR/Portrait_DNR_Pushilin.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BBK_zuganov"
+		texturefile = "gfx/leaders/BBK/Portrait_BBK_Zuganov.dds"
 	}
 }
