@@ -895,3 +895,7 @@ KOM = {
 	color = rgb { 210  24  0 }
 	color_ui = rgb { 210  24  0 }
 }
+RFF = {
+	color = rgb { 26  39  91 }
+	color_ui = rgb { 26  39  91 }
+}
