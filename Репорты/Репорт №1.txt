@@ -1,0 +1,108 @@
+
+[20:29:51][dlc.cpp:227]: Invalid supported_version in  file: mod/ugc_1834715445.mod line: 9
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_USA_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_USA_scout_plane2_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_JAP_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_JAP_scout_plane2_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_ITA_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_ITA_scout_plane2_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_GER_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_GER_scout_plane2_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_ENG_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_ENG_scout_plane2_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_SOV_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_SOV_scout_plane2_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_FRA_scout_plane1_medium
+[20:29:56][equipment_graphic_database.cpp:32]: GFX referenced in equipment graphic database does not exist: GFX_FRA_scout_plane2_medium
+[20:29:58][effect.cpp:320]: Error: "Unexpected token:election_allowed: election_allowed, near line: 93" in file: "history/countries/BBK - Communism Russia.txt" near line: 94
+[20:29:58][effect.cpp:320]: Error: "Unexpected token:election_allowed: election_allowed, near line: 93" in file: "history/countries/DNR - Donetsk.txt" near line: 94
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country BBK : Ideology democratic : Path gfx/flags/ : File not found
+[20:30:01][flagtextureatlas.cpp:203]: Error loading country flag overlay: gfx/flags/medium/ABK_democratic.tga : Unexpected texture dimensions
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country ABK : Ideology democratic : Path gfx/flags/medium/ : File not found
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country BIL : Ideology democratic : Path gfx/flags/medium/ : File not found
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country DNR : Ideology democratic : Path gfx/flags/medium/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country LNR : Ideology democratic : Path gfx/flags/medium/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country BBK : Ideology democratic : Path gfx/flags/medium/ : File not found
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country BIL : Ideology democratic : Path gfx/flags/small/ : File not found
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country DNR : Ideology democratic : Path gfx/flags/small/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country LNR : Ideology democratic : Path gfx/flags/small/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:01][flagtextureatlas.cpp:525]: Error loading flag for country BBK : Ideology democratic : Path gfx/flags/small/ : File not found
+[20:30:02][gameapplication.cpp:759]: The game has loc key collisions. Check logs/text.log for more details
+[20:30:03][effect.cpp:320]: Error: "Unexpected token:election_allowed: election_allowed, near line: 93" in file: "history/countries/BBK - Communism Russia.txt" near line: 94
+[20:30:03][effect.cpp:320]: Error: "Unexpected token:election_allowed: election_allowed, near line: 93" in file: "history/countries/DNR - Donetsk.txt" near line: 94
+[20:30:04][country.cpp:6600]: Attempting to set captial state #219 for Российская Федерация, they dont own it!
+[20:30:04][equipment_effects.cpp:836]: 'history/countries/YUG - Yugoslavia.txt:368: create_equipment_variant': 'Dalmacija Class' - Invalid module setup. В проекте нет одного или нескольких обязательных модулей:
+   Батарея
+   Система управления огнем
+   Двигатель
+[20:30:04][country.cpp:6600]: Attempting to set captial state #658 for Республика Катар, they dont own it!
+[20:30:04][country.cpp:6600]: Attempting to set captial state #690 for Договорные государства, they dont own it!
+[20:30:04][country.cpp:6600]: Attempting to set captial state #397 for , they dont own it!
+[20:30:04][effectimplementation.cpp:1459]: Popularity from ideologies does not add up to 100 for history/countries/NRU - New Russia.txt:82: set_popularities
+[20:30:04][effectimplementation.cpp:1459]: Popularity from ideologies does not add up to 100 for history/countries/UKM - Ukraine.txt:82: set_popularities
+[20:30:04][effectimplementation.cpp:1459]: Popularity from ideologies does not add up to 100 for history/countries/KRI - Crimea County.txt:82: set_popularities
+[20:30:04][effectimplementation.cpp:5123]: history/countries/BIL - Belarus.txt:22: recruit_character: Unknown character 
+[20:30:04][effectimplementation.cpp:1459]: Popularity from ideologies does not add up to 100 for history/countries/BIL - Belarus.txt:82: set_popularities
+[20:30:04][effectimplementation.cpp:484]: history/countries/DNR - Donetsk.txt:96: create_country_leader: Denis Pushilin already has an ideology Консерватизм
+[20:30:04][effectimplementation.cpp:5123]: history/countries/LNR - Luhansk.txt:22: recruit_character: Unknown character 
+[20:30:04][effectimplementation.cpp:1459]: Popularity from ideologies does not add up to 100 for history/countries/LNR - Luhansk.txt:82: set_popularities
+[20:30:04][country.cpp:6600]: Attempting to set captial state #227 for Армия Союза Социалистов России, they dont own it!
+[20:30:04][effectimplementation.cpp:1459]: Popularity from ideologies does not add up to 100 for history/countries/BBK - Communism Russia.txt:96: set_popularities
+[20:30:04][country.cpp:6600]: Attempting to set captial state #315 for Российская Федерация, they dont own it!
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:21: recruit_character: Character CUB_josé_agripino_barnet cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:22: recruit_character: Character CUB_guillermo_cabral cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:23: recruit_character: Character CUB_wenceslao_carmona cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:24: recruit_character: Character CUB_gregorio_morales cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:25: recruit_character: Character CUB_fidel_castro cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:26: recruit_character: Character CUB_enrique_c_rolas cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:27: recruit_character: Character CUB_palaez_menendez cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:28: recruit_character: Character CUB_domingo_r_del_toro cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:29: recruit_character: Character CUB_eduardo_chibas cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:30: recruit_character: Character CUB_juan_blas_hernandez cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:31: recruit_character: Character CUB_sergio_carbo cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:32: recruit_character: Character CUB_fulgencio_batista cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:33: recruit_character: Character CUB_rodrigo_a_fuentes cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:34: recruit_character: Character CUB_sandalio_junco cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:35: recruit_character: Character CUB_salvador_castaneda_castro cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:36: recruit_character: Character CUB_angel_gonzalez cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:37: recruit_character: Character CUB_julio_sanguily cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:38: recruit_character: Character CUB_carlos_prio cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:39: recruit_character: Character CUB_gerardo_machado cannot be assigned to RFF as it is already assigned to CUB
+[20:30:04][effectimplementation.cpp:5133]: history/countries/RFF - Russian Federation.txt:40: recruit_character: Character CUB_eugenio_molinet_castro cannot be assigned to RFF as it is already assigned to CUB
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country BBK : Ideology communism : Path gfx/flags/ : File not found
+[20:30:07][flagtextureatlas.cpp:203]: Error loading country flag overlay: gfx/flags/medium/ABK_democratic.tga : Unexpected texture dimensions
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country ABK : Ideology democratic : Path gfx/flags/medium/ : File not found
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country BIL : Ideology democratic : Path gfx/flags/medium/ : File not found
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country DNR : Ideology democratic : Path gfx/flags/medium/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country LNR : Ideology democratic : Path gfx/flags/medium/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country BBK : Ideology communism : Path gfx/flags/medium/ : File not found
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country BIL : Ideology democratic : Path gfx/flags/small/ : File not found
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country DNR : Ideology democratic : Path gfx/flags/small/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country LNR : Ideology democratic : Path gfx/flags/small/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[20:30:07][flagtextureatlas.cpp:525]: Error loading flag for country BBK : Ideology communism : Path gfx/flags/small/ : File not found
+[20:31:41][equipmentpool.cpp:1314]: Country "GER" does not have any equipment variant for type "light_cruiser_2" version 0 created by "GER".
+[20:31:41][equipmentpool.cpp:1314]: Country "GER" does not have any equipment variant for type "light_cruiser_2" version 0 created by "GER".
+[20:31:41][equipmentpool.cpp:1314]: Country "GER" does not have any equipment variant for type "light_cruiser_2" version 0 created by "GER".
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-11
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-12
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-13
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-14
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-15
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-16
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-17
+[20:31:42][ship.cpp:1365]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-48
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/NRU_1936.txt, error: not found
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/UKM_1936.txt, error: not found
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/KRI_1936.txt, error: not found
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/BIL_1936.txt, error: not found
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/DNR_1936.txt, error: not found
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/LNR_1936.txt, error: not found
+[20:31:42][virtualfilesystem.cpp:252]: Could not open file: history/units/BBK_1936.txt, error: not found
