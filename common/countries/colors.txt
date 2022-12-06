@@ -899,3 +899,7 @@ RFF = {
 	color = rgb { 26  39  91 }
 	color_ui = rgb { 26  39  91 }
 }
+CHE = {
+	color = rgb { 172  199  178 }
+	color_ui = rgb { 172  199  178 }
+}
