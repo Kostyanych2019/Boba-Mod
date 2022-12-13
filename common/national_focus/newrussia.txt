@@ -1,0 +1,100 @@
+﻿focus_tree = {
+	id = newrussian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NRU
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = newrussian_rise_of_fire
+		icon = GFX_focus_NRU_rise_of_fire
+		x = 3
+		y = 5
+		#relative_position_id = AST_empower_the_workers
+		
+		cost = 10
+
+		available = {
+		 country_exists = BBK
+		 country_exists = RFF
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			 add_state_core = 210
+			 add_state_core = 247
+			}
+}		
+	
+focus = {
+		id = newrussian_reorganise_military_command
+		icon = GFX_focus_NRU_reorganise_military_command
+		x = 3
+		y = 6
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = newrussian_rise_of_fire }
+		
+		cost = 20
+
+		available = {
+		 has_manpower > 1000
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			 add_command_power = 100
+			}
+}		
+
+##Politics Section##
+
+focus = {
+		id = newrusssian_politics_start
+		icon = GFX_focus_NRU_reorganise_military_command
+		x = 3
+		y = 6
+		#relative_position_id = AST_empower_the_workers
+		
+		cost = 20
+
+		available = {
+		 NRU = { exists = yes}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			 add_political_power = 100
+			 }
+		}
+	}
+}	
