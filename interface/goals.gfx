@@ -3801,4 +3801,8 @@ spriteTypes = {
 		name = "GFX_focus_NRU_reorganise_military_command"
 		texturefile = "gfx/interface/goals/focus_NRU_newrussian_reorganise_military_command.dds"
 	}
+		SpriteType = { 
+		name = "GFX_focus_new_rise_ukm"
+		texturefile = "gfx/interface/goals/focus_UKM_new_rise.dds"
+	}
 }

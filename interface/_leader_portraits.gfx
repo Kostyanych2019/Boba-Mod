@@ -24,4 +24,8 @@ spriteType = {
 		name = "GFX_portrait_BBK_zuganov"
 		texturefile = "gfx/leaders/BBK/Portrait_BBK_Zuganov.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_RFF_putin"
+		texturefile = "gfx/leaders/RFF/Portrait_RFF_Putin.dds"
+	}
 }

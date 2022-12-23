@@ -1,0 +1,33 @@
+﻿focus_tree = {
+	id = ukrainezelen_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UKM
+		}
+	}
+	
+    default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+	
+	focus = {
+		id = ukrainian_new_rise
+		icon = GFX_focus_new_rise_ukm
+		x = 0
+		y = 4
+		#relative_position_id = AST_empower_the_workers
+
+		cost = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 100
+				}
+}			

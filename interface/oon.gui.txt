@@ -1,0 +1,47 @@
+guiTypes = {
+
+    containerWindowType
+        name = "Oon_button_window"
+		position = { x=0 y=20 }
+		clipping = no
+		
+		buttonType = {
+		    name = "Oon_button"
+			position = { x = 28 y = 12 }
+			quadTextureSprite = "GFX_button_178x34"
+			buttonFont = "hoi_16mbs"
+		    format = right
+			buttonText = "Кабинет ООН"
+			clicksound = click_close
+          }
+     }
+	 
+	 containerWindowType = {
+          name = "Ukor_main_window"
+		  size = { width=535 height=465 }
+		  clipping = no
+		  position = { x = 800 y = 139 }
+	      show_position = {x=10 y=10}
+		  show_animation_type = accelerated
+		  hide_animation_type = accelerated
+		  
+		  hide_sound = menu_close_window
+		  show_sound = menu_open_window
+		  
+		  background = {
+              name = "Background"
+              quadTextureSprite ="GFX_tiled_window_w_close"
+		  }
+		 
+		 buttonType = {
+		     name = "Oon_close_main_window"
+			 position = { x = 45 y = 13 }
+			 quadTextureSprite = "GFX_closebutton"
+			 buttonFont = "Main_14_black"
+			 shortcut = "ESCAPE"
+			 Orientation = "UPPER_RIGHT"
+			 clicksound = click_close
+			 pdx_tooltip = "CLOSE"
+	    }
+	}
+}		
