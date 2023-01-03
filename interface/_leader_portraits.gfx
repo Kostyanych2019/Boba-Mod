@@ -28,4 +28,8 @@ spriteType = {
 		name = "GFX_portrait_RFF_putin"
 		texturefile = "gfx/leaders/RFF/Portrait_RFF_Putin.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_LNR_pasechnik"
+		texturefile = "gfx/leaders/LNR/Portrait_LNR_Pasechnik.dds"
+	}
 }
