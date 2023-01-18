@@ -25288,7 +25288,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}  
 	}
-	    SpriteType = {
+    SpriteType = {
 		  name = "GFX_focus_NRU_rise_of_fire"
 		  texturefile = "gfx/interface/goals/focus_NRU_rise_of_fire.dds"
 		  effectFile = "gfx/FX/buttonstate.lua"
@@ -25317,12 +25317,13 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
         }
+		legacy_lazy_load = no
+	}
 	
-	
-		SpriteType = {
+    SpriteType = {
 		name = "GFX_focus_NRU_reorganise_military_command"
 		texturefile = "gfx/interface/goals/focus_NRU_newrussian_reorganise_military_command.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
+		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_NRU_newrussian_reorganise_military_command.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -25349,7 +25350,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
-	}
+        }
 	
 	    SpriteType = {
 		name = "GFX_focus_new_rise_ukm"

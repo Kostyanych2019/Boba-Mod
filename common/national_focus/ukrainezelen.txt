@@ -22,12 +22,39 @@
 		#relative_position_id = AST_empower_the_workers
 
 		cost = 10
-		}
+		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
+		
 		completion_reward = {
           add_political_power = 100
-				}
-}			
+		}		
+}	
+
+focus = {
+		id = ukrainian_political_path
+		icon = GFX__shine
+		x = 1
+		y = 5
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = ukrainian_new_rise }
+		
+		cost = 20
+
+		available = {
+		 country_exists = UKM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			 add_political_power = 100
+			}
+}				

@@ -67,21 +67,20 @@ focus = {
 		completion_reward = {
 			 add_command_power = 100
 			}
-}		
-
-##Politics Section##
+}
 
 focus = {
-		id = newrusssian_politics_start
-		icon = GFX_focus_NRU_reorganise_military_command
-		x = 3
+		id = newrussian_peregorovi_s_federal
+		icon = GFX__shine
+		x = 5
 		y = 6
 		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = newrussian_reorganise_military_command }
 		
 		cost = 20
 
 		available = {
-		 NRU = { exists = yes}
+		 has_manpower > 1000
 		}
 		
 		bypass = {
@@ -93,8 +92,38 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			 add_political_power = 100
-			 }
+			 add_command_power = 100
+			}
+}		
+
+focus = {
+		id = newrussian_nastuplenie_na_sibir
+		icon = GFX__shine
+		x = 7
+		y = 6
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = newrussian_peregorovi_s_federal }
+		
+		cost = 20
+
+		available = {
+		 country_exists = BBK
 		}
-	}
-}	
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          state_event = {
+          id = newrussia.1
+          days = 10
+          random = 50
+          random_days = 10
+          trigger_for = controller
+		}	
+}			
