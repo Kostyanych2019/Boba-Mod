@@ -1,0 +1,28 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = newrussia
+
+country_event = {
+	id = newrussia.1
+	title = newrussia.1.t
+	desc = newrussia.1.d
+	picture = GFX_siberian_question
+	
+	is_triggered_only = yes
+	
+	option = { # Negotiate!
+		name = newrussia.1.a
+		ai_chance = { factor = 90 }
+		add_political_power = 200
+	}
+	option = { # War for Siberia
+		name = newrussia.1.b
+		ai_chance = { factor = 10 }
+	    create_wargoal = {
+         type = take_state_focus
+         target = ROOT
+		 generator = { 219 }
+	}	
+}
