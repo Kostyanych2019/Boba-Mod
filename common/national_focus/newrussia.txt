@@ -92,8 +92,13 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			 add_command_power = 100
-			}
+		  state_event = {
+          id = newrussia.1
+          days = 10
+          random = 50
+          random_days = 10
+          trigger_for = controller
+		}
 }		
 
 focus = {
@@ -119,11 +124,9 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-          state_event = {
-          id = newrussia.1
-          days = 10
-          random = 50
-          random_days = 10
-          trigger_for = controller
+	    create_wargoal = {
+	    type = take_state_focus
+	    target = BBK
+	    generator = { 408 }
 		}	
 }			
