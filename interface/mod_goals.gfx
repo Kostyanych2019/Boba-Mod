@@ -1,0 +1,25 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = { 
+		name = "GFX_focus_NRU_rise_of_fire"
+		texturefile = "gfx/interface/goals/focus_NRU_rise_of_fire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_NRU_reorganise_military_command"
+		texturefile = "gfx/interface/goals/focus_NRU_newrussian_reorganise_military_command.dds"
+	}
+    SpriteType = {
+	    name = "GFX_focus_new_rise_ukm"
+	    texturefile = "gfx/interface/goals/focus_UKM_new_rise.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RFF_grandrussian_war"
+		texturefile = "gfx/interface/goals/focus_grandrussian_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RFF_operation_night_falcon"
+		texturefile = "gfx/interface/goals/focus_operation_falcon.dds"
+	}	
+}

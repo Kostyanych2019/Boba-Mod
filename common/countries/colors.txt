@@ -891,7 +891,7 @@ LNR = {
 	color = rgb { 86  66  109 }
 	color_ui = rgb { 86  66  109 }
 }
-KOM = {
+BBK = {
 	color = rgb { 210  24  0 }
 	color_ui = rgb { 210  24  0 }
 }

@@ -1,0 +1,11 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_siberian_question"
+		texturefile = "gfx/event_pictures/siberian_question.dds"
+	}
+	spriteType = {
+		name = "GFX_operation_falcon"
+		texturefile = "gfx/event_pictures/operation_falcon.dds"
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_new_era_bookmark"
+		texturefile = "gfx/interface/new_era_2025.dds"
+	}
+} 
