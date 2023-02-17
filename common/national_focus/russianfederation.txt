@@ -1,0 +1,100 @@
+focus_tree = {
+	id = russianfederation_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RFF
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+	
+	focus = {
+		id = russianfederation_grandrussian_war
+		icon = GFX_focus_RFF_grandrussian_war
+		x = 3
+		y = 2
+		#relative_position_id = AST_empower_the_workers
+		
+		cost = 10
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_war_support = 0.1
+		}
+}
+
+focus = {
+		id = russianfederation_operation_night_falcon
+		icon = GFX_focus_RFF_operation_night_falcon
+		x = 3
+		y = 3
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = russianfederation_grandrussian_war }
+		
+		cost = 20
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		  state_event = {
+          id = RussianFederation.1
+          days = 10
+          random = 50
+          random_days = 10
+          trigger_for = controller
+		}
+}
+
+focus = {
+		id = russianfederation_donbass_operation
+		icon = GFX_focus_RFF_donbass_operation
+		x = 3
+		y = 5
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = russianfederation_operation_night_falcon }
+		
+		cost = 30
+
+		available = {
+		country_exists = DNR
+        country_exists = LNR		
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+        type = puppet_wargoal_focus
+        target = DNR
+		}
+}										

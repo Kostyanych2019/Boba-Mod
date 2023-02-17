@@ -12,7 +12,19 @@ characters={
 			id = -1
 		}
 	}
-	
+	RFF_maskim_suraikin ={
+	name = "Maksim Suraikin"
+	portraits ={
+	    civilian ={
+	           large = GFX_portrait_RFF_suraikin
+			}
+		}
+		country_leader={
+			ideology= stalinism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}	
 }
 	
  

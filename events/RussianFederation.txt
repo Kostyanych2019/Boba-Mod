@@ -16,10 +16,10 @@ country_event = {
 		name = RussianFederation.1.a
 		ai_chance = { factor = 90 }
 		kill_ideology_leader = communism
-		#news_event = {
-        #id = my_event.1
-        #days = 10
-        #random_hours = 12
-        #random_days = 10
+		news_event = {
+        id = eranews.1
+        days = 10
+        random_hours = 12
+        random_days = 10
    }
 }

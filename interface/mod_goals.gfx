@@ -21,5 +21,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_RFF_operation_night_falcon"
 		texturefile = "gfx/interface/goals/focus_operation_falcon.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_focus_RFF_donbass_operation"
+		texturefile = "gfx/interface/goals/focus_donbass_operation.dds"
+	}		
 }
